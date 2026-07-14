@@ -7,7 +7,7 @@ import { Card } from "@/components/ui/card";
 
 const Process = () => {
   return (
-    <section id="about" className="relative py-28 overflow-hidden">
+    <section id="about" className="relative py-15 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-linear-to-b from-[#020209]/80 via-[#050514]/70 to-[#020209]/80" />
       <div className="absolute bottom-0 left-0 w-125 h-125 bg-blue-900/10 rounded-full blur-[120px] pointer-events-none" />

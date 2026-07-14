@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed h-20 top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
           ? "bg-black/80 backdrop-blur-xl border-b border-blue-900/40 shadow-lg shadow-blue-950/20"
           : "bg-transparent"
@@ -28,10 +28,10 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-18 py-4">
           {/* Logo */}
           <Link href="#home" className="flex items-center gap-1">
-            <span className="text-xl font-black tracking-tight text-white uppercase">
+            <span className="text-2xl font-black tracking-tight text-white uppercase">
               Draw
             </span>
-            <span className="text-xl font-black tracking-tight text-blue-500 uppercase">
+            <span className="text-2xl font-black tracking-tight text-blue-500 uppercase">
               bridge
             </span>
           </Link>
@@ -53,6 +53,7 @@ const Navbar = () => {
           {/* CTA Button */}
           <Button
             render={<Link href="#contact" />}
+            nativeButton={false}
             className="hidden md:flex rounded-full border border-blue-500/60 bg-transparent text-blue-400 text-sm font-medium hover:bg-blue-600 hover:border-blue-600 hover:text-white h-10 px-5 gap-2"
           >
             Start Project <ArrowRight size={14} />
@@ -72,7 +73,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden bg-black/95 backdrop-blur-xl border-b border-blue-900/40 py-6 px-6">
-          <ul className="flex flex-col gap-4 mb-6">
+          <ul className="flex flex-col items-center gap-4 mb-6">
             {NAV_LINKS.map((link) => (
               <li key={link.label}>
                 <Link
@@ -87,6 +88,7 @@ const Navbar = () => {
           </ul>
           <Button
             render={<Link href="#contact" onClick={() => setMenuOpen(false)} />}
+            nativeButton={false}
             className="w-full rounded-full border border-blue-500/60 bg-transparent text-blue-400 text-sm font-medium hover:bg-blue-600 hover:border-blue-600 hover:text-white h-11 gap-2"
           >
             Start Project <ArrowRight size={14} />

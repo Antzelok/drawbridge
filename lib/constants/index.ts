@@ -81,68 +81,46 @@ export const PROCESS_STEPS = [
   },
 ];
 
-export const TESTIMONIALS = [
-  {
-    quote:
-      "Drawbridge transformed our entire platform. Our load times dropped by 60% and conversions increased significantly. Exceptional team.",
-    name: "Sarah Chen",
-    role: "CTO",
-    company: "NovaTech",
-    initials: "SC",
-  },
-  {
-    quote:
-      "The team at Drawbridge are true professionals. They delivered our app on time, on budget, and exceeded every single expectation we had.",
-    name: "Marcus Reid",
-    role: "Founder",
-    company: "Launchpad",
-    initials: "MR",
-  },
-  {
-    quote:
-      "Working with Drawbridge was a game-changer. Their attention to detail and technical expertise is completely unmatched in the industry.",
-    name: "Priya Sharma",
-    role: "CEO",
-    company: "DataFlow",
-    initials: "PS",
-  },
-];
-
 export const PROJECTS = [
   {
-    title: "NovaTech Dashboard",
+    title: "Opium - Greece",
     category: "Web Development",
-    description: "Enterprise SaaS analytics platform with real-time data visualization.",
+    description:
+      "Enterprise SaaS analytics platform with real-time data visualization.",
     gradient: "from-blue-900 to-blue-600",
   },
   {
-    title: "Launchpad App",
+    title: "Watch Me",
     category: "Mobile App",
     description: "Cross-platform startup management app used by 10k+ founders.",
     gradient: "from-indigo-900 to-blue-700",
   },
   {
-    title: "DataFlow Analytics",
+    title: "Sun - Solutions",
     category: "UI/UX Design",
-    description: "Complete product redesign that boosted user retention by 45%.",
+    description:
+      "Complete product redesign that boosted user retention by 45%.",
     gradient: "from-blue-800 to-cyan-700",
   },
   {
     title: "NebulaStore",
     category: "Web Development",
-    description: "High-performance e-commerce platform handling 100k+ daily transactions.",
+    description:
+      "High-performance e-commerce platform handling 100k+ daily transactions.",
     gradient: "from-slate-900 to-blue-800",
   },
   {
     title: "Pulse Health",
     category: "Strategy & Dev",
-    description: "HIPAA-compliant healthcare platform connecting patients and doctors.",
+    description:
+      "HIPAA-compliant healthcare platform connecting patients and doctors.",
     gradient: "from-blue-950 to-indigo-700",
   },
   {
     title: "SwiftPay",
     category: "Full Stack",
-    description: "Fintech payment application processing millions in transactions monthly.",
+    description:
+      "Fintech payment application processing millions in transactions monthly.",
     gradient: "from-indigo-950 to-blue-600",
   },
 ];

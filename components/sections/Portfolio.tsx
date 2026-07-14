@@ -9,7 +9,7 @@ const Portfolio = () => {
   return (
     <section
       id="portfolio"
-      className="relative py-28 bg-[#020209] overflow-hidden"
+      className="relative py-15 bg-[#020209] overflow-hidden"
     >
       {/* Top glow line */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-150 h-px bg-linear-to-r from-transparent via-blue-700/50 to-transparent" />

@@ -1,6 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
-import { Phone, ArrowRight, ChevronDown } from "lucide-react";
+import { Phone, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
@@ -12,13 +11,6 @@ const Hero = () => {
     >
       {/* Background image */}
       <div className="absolute inset-0 z-0">
-        <Image
-          src="/background.jpg"
-          alt="Drawbridge background"
-          fill
-          className="object-cover opacity-15"
-          priority
-        />
         {/* Gradient overlays */}
         <div className="absolute inset-0 bg-linear-to-b from-black via-black/85 to-black" />
         <div className="absolute inset-0 bg-linear-to-r from-black via-transparent to-black" />
@@ -135,21 +127,6 @@ const Hero = () => {
               </Link>
             </div>
           </div>
-        </div>
-
-        {/* Scroll indicator */}
-        <div className="flex justify-center pb-10">
-          <Link
-            href="#services"
-            className="flex flex-col items-center gap-2 text-gray-500 hover:text-blue-400 transition-colors group"
-            aria-label="Scroll down"
-          >
-            <span className="text-xs tracking-widest uppercase">Scroll</span>
-            <ChevronDown
-              size={18}
-              className="animate-bounce group-hover:text-blue-400"
-            />
-          </Link>
         </div>
       </div>
     </section>
