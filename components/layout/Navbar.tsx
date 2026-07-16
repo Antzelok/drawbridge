@@ -28,11 +28,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-18 py-4">
           {/* Logo */}
           <Link href="#home" className="flex items-center gap-1">
-            <span className="text-2xl font-black tracking-tight text-white uppercase">
-              Draw
+            <span className="text-2xl font-black tracking-tight text-white">
+              DRAW
             </span>
-            <span className="text-2xl font-black tracking-tight text-blue-500 uppercase">
-              bridge
+            <span className="text-2xl font-black tracking-tight text-blue-500">
+              BRIDGE
             </span>
           </Link>
 
