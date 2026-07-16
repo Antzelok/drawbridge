@@ -24,8 +24,8 @@ const Navbar = () => {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="flex items-center justify-between h-18 py-4">
+      <div className="flex items-center h-full max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="flex items-center justify-between w-full">
           {/* Logo */}
           <Link href="#home" className="flex items-center gap-1">
             <span className="text-2xl font-black tracking-tight text-white">
